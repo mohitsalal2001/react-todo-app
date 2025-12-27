@@ -37,7 +37,7 @@ const Box = () => {
 
   return (
     <div
-      className='h-4/5 flex flex-col bg-linear-to-br  from-purple-500  to-black  w-1/3  rounded-xl px-2 py-2 border-2 font-medium  border-fuchsia-100  '>
+      className='h-9/10 flex flex-col bg-linear-to-br  from-purple-500  to-black  w-6/7  rounded-xl px-2 py-2 border-2 font-medium  border-fuchsia-100  '>
       <Head addTasks = {addTasks}/>
       <TaskList tasks={tasks} toggleTasks={toggleTasks} deleteTask={deleteTask}/>
     </div>

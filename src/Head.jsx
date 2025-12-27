@@ -14,7 +14,7 @@ const Head = ({ addTasks }) => {
 
     return (
         <div
-            className='bg-white  transition-all h-fit w-fit lg:w-full py-2 rounded-xl  px-2 lg:h-fit  '>
+            className='bg-white  transition-all h-fit w-full lg:w-full py-2 rounded-xl  px-2 lg:h-fit  '>
             <div
                 className='flex flex-col'>
                 <div
